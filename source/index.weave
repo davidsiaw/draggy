@@ -1,0 +1,16 @@
+raw_page "", "" do
+	html do
+		head do
+			link rel: 'stylesheet', href: 'css/main.css'
+		end
+
+		body do
+			div id: 'body' do
+
+			end
+
+			script src: 'js/main.js' do
+			end
+		end
+	end
+end
